@@ -1,23 +1,21 @@
-import org.junit.jupiter.api.Disabled;
+package stubTests;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SkippedTests {
+public class PositiveTests {
 
-    @Disabled
     @Test
     public void t1(){
         assertTrue(true);
     }
 
-    @Disabled
     @Test
     public void t2(){
         assertTrue(true);
     }
 
-    @Disabled
     @Test
     public void t3(){
         assertTrue(true);
