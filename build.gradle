@@ -52,3 +52,9 @@ tasks.register("uiTests", Test) {
         includeTags "ui"
     }
 }
+
+tasks.register("consoleTests", Test) {
+    useJUnitPlatform {
+        includeTags "console"
+    }
+}
