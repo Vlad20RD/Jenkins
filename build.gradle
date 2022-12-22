@@ -47,9 +47,8 @@ test {
     useJUnitPlatform()
 }
 
-//Таск для ui тестов
-task ui_test(type: Test){
-    useJUnitPlatform{
+tasks.register("uiTests", Test) {
+    useJUnitPlatform {
         includeTags "ui"
     }
 }
